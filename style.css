@@ -18,9 +18,13 @@ header {
     text-shadow: 2px 2px 1px #202020;
 }
 header h1{
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 45px;
+	font-family: 'Roboto', Verdana sans-serif;
+	font-weight: 300;
 	text-transform: uppercase;
+}
+header h2{
+	font-family: 'Roboto', Verdana sans-serif;
+	font-weight: 100;
 }
 li {
 	margin: 0px;
