@@ -19,7 +19,8 @@
   	<header>
         <img src="img/photo-me.png" class="profile">
         <h1 class="animated bounce">Nina Carlino</h1>
-        <h2>"I value user experience and adore the simplicity of design"</h2>
+        <h2>"Creating a better experience on the Web."</h2>
+        <h6>nina.pcarlino@gmail.com</h6>
   	    <span class="spacing"><a href="https://github.com/pitakwong" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a></span><a href="https://twitter.com/ppitakwong" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
   	    <ul>
   			<li><a href="#" onClick="scrollToMockups()">Projects</a></li>
@@ -30,7 +31,7 @@
   	</header>
 
   	<section class="mockups" id="mockups">
-  	    <h2>- My very first mockups -</h2>
+  	    <h2>- Some of my mockups-</h2>
   	    <a href="http://pitakwong.github.io/bloc_jott_ly" target="_blank"><img src="img/jottly-logo.png" style="padding-top:100px" ></a>
   	</section>
 
@@ -41,27 +42,33 @@
 
     <section class="mobile">
         <h2>- Mobile first -</h2>
-        <p>Comming up soon. Stay tune.</p>
+        <p>Comming up soon. Stay tuned.</p>
         <a href="" target="_blank"><img src="img/mobile.png" style="padding-top:50px" ></a>   	
     </section>
 
     <section class="about">
-        <h2>- This is who I am and what I do. -</h2>
+        <h2>- Who I am. What I do. -</h2>
         <img src="img/nina-about.png" id="about">
         <div class="info-wrapper">
           <h3>Who I am</h3>
-          <p><i class="fa fa-dot-circle-o" style="padding-right:5px"></i>Hi, I'm Nina. A UX designer from Chicago. I'm passionated about people, art, and design.</p>
+          <p><i class="fa fa-dot-circle-o" style="padding-right:5px"></i>I'm Nina. A UX designer from Chicago. I'm passionated about people, art, and design.</p>
           <h3>What I do</h3>
-          <p><i class="fa fa-dot-circle-o" style="padding-right:5px"></i>I create beautiful things, anything from paper to webpage. I am most into creating good web/mobile applications. I use Ai, Ps, and few wireframe tools to help accomplished my goals of building them. I also browse around on Github. Such an amazing place for open-source projects and a lovely place to host and keep track on my projects. In fact, this very page is hosted on Github. Every step of creating a website is very exciting.</p>
+          <p><i class="fa fa-dot-circle-o" style="padding-right:5px"></i>I create beautiful things on the Web, paper or anywhere else. I am most interested in the web/mobile application space. My toolset includes Adobe Illustrator, Photoshop and UXpin. I am also proficient in Git / Github, HTML5, CSS3, Axure and a slew of others.</p>
         </div>
         
 
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2>- Keep in touch -</h2>
-        <a href="#" target="_blank" id="contact"><i class="fa fa-paper-plane-o fa-5x" style="padding:100px"></i></a>
-        <h2>- Thank you for stopping by -</h2>
+        <form class="contact-form" id="contact-form">
+          <input class="text" type="text" size="40" placeholder="Your Email"/>
+          <textarea class="text expand" row="5" type="text" size="40" placeholder="Message"></textarea>
+          <a href="javascript:{}" onclick="document.getElementById('contact-form').submit(); return false;"><i class="fa fa-paper-plane-o fa-2x"></i></a>
+        </form>
+        
+        
+        <h2>- Thanks for stopping by -</h2>
     </section>
   <script type="text/javascript" src="js/page-transitions.js"></script>
   

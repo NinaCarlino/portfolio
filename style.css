@@ -29,6 +29,12 @@ header h2{
 	font-weight: 100;
 	color: #BBB;
 }
+header h6{
+	font-family: 'Roboto', Verdana sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	color: #BBB;
+}
 li {
 	margin: 0px;
 	font-size: 40px;
@@ -99,21 +105,43 @@ section.about{
 }
 
 div.info-wrapper{
-	width: 600px;
+	width: 670px;
 	text-align: left;
-	margin-left: 350px;
+	margin-left: 320px;
 }
-div h3, div p, section.about h2{
+div h3, section.about h2{
 	color: #366;
 	text-shadow: 1px 1px 1px #FFF;
 }
-
+div p{
+	color: #366;
+}
 section.contact{
 	background-color: #c9aed6;
 	text-align: center;
 
 }
-
+.contact-form{
+	width: 100%;
+	text-align: center;
+}
+.text{
+	-webkit-border-radius: 8px;
+	-mos-border-radius: 8px;
+	border-radius: 8px;
+	border: 0;
+	width: 250px;
+	height: 40px;
+	padding: 7px;
+	font-size: 14px;
+	display: block;
+	margin-left: 500px;
+}
+.expand{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 100px;
+}
 span.space{
 	padding-left: 20px;
 }
