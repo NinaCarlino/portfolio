@@ -8,8 +8,9 @@ h1, h2, h3, h4, h5, h6, p, div{
 	color: #FFF;
 }
 p {
-    font-size: 20px;
+    font-size: 16px;
 }
+
 header {
 	/*background-size: cover;*/
 	padding:100px 0;
@@ -67,9 +68,8 @@ section.mockups, section.project, section.mobile, section.about, section.contact
 section h2{
 	font-family: Arial, sans-serif;
 	font-weight: normal;
-	font-size: 20px;
 	color: #FFF;
-	text-shadow: 1px 1px 1px #BBB;
+	text-shadow: 1px 1px 1px #4C4646
 	
 }
 section a{
@@ -78,7 +78,7 @@ section a{
 	margin: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	text-shadow: 2px 2px 2px #BBB;
+	text-shadow: 2px 2px 2px #666362;
 }
 section a:hover{
     opacity: 0.5;
@@ -94,13 +94,37 @@ section.mobile{
 
 section.about{
 	background-color: #f4e2a8;
+	height: 650px;
 }
 
 section.contact{
 	background-color: #c9aed6;
+	text-align: center;
+
 }
 
 
 span.space{
 	padding-left: 20px;
+}
+
+.slider {
+  width: 500px; height: 500px;
+  overflow: hidden;
+  margin: 50px 360px; 
+}
+.slider > ul {
+    /* styled by JS to match the added width and height of all <li>’s */
+    position: relative;
+    -webkit-transition: 0.5s left;
+    -moz-transition: 0.5s left;
+    -ms-transition: 0.5s left;
+    -o-transition: 0.5s left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slider > ul > li {
+      float: left;
+      width: 500px; height: 500px;
 }
