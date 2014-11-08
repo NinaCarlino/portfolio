@@ -108,10 +108,12 @@ ul.info-wrapper{
 	width: 670px;
 	text-align: left;
 	display: inline-block;
+
 }
 ul.info-wrapper li, ul.info-wrapper h3, ul.info-wrapper p, section.about h2{
 	color: #366;
 	text-shadow: 1px 1px 1px #FFF;
+	text-transform: none;
 }
 ul.info-wrapper li{
 	padding: 20px;
